@@ -197,6 +197,8 @@
 		378439CB227AC031000BC165 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		37952C261F63B50D00DD6677 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37952C5E1F63BB7100DD6677 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2B3C8D25B76985007CB1EE /* SSZipArchive */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SSZipArchive; path = Package/SSZipArchive; sourceTree = "<group>"; };
+		5D2B3C9225B76A5F007CB1EE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		93CE5D5D227FE5C50003464F /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
 		AFF75A241C37279600F450AC /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -272,6 +274,8 @@
 		B423AE101C0DF76A0004A2F1 = {
 			isa = PBXGroup;
 			children = (
+				5D2B3C9225B76A5F007CB1EE /* Package.swift */,
+				5D2B3C8D25B76985007CB1EE /* SSZipArchive */,
 				B423AE251C0DF7950004A2F1 /* SSZipArchive */,
 				3775F4242276C5C000A1840B /* Frameworks */,
 				B423AE1B1C0DF76A0004A2F1 /* Products */,
